@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target qtros[0m
+[  9%] [32mBuilding CXX object CMakeFiles/qtros.dir/src/main_window.cpp.o[0m
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:[m[K In member function ‘[01m[Kvoid qtros::MainWindow::moveLeft()[m[K’:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:6:[m[K [01;31m[Kerror: [m[K‘[01m[KInfo[m[K’ was not declared in this scope
+  log(Info,std::string("move left <<<<"));
+[01;32m[K      ^[m[K
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:6:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/opt/ros/kinetic/include/ros/console.h:35:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/../include/qtros/qnode.hpp:22[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/../include/qtros/main_window.hpp:17[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:15[m[K:
+[01m[K/opt/ros/kinetic/include/ros/console_backend.h:43:3:[m[K [01;36m[Knote: [m[K  ‘[01m[KInfo[m[K’
+   Info,
+[01;32m[K   ^[m[K
+CMakeFiles/qtros.dir/build.make:106: recipe for target 'CMakeFiles/qtros.dir/src/main_window.cpp.o' failed
+make[2]: *** [CMakeFiles/qtros.dir/src/main_window.cpp.o] Error 1
+CMakeFiles/Makefile2:707: recipe for target 'CMakeFiles/qtros.dir/all' failed
+make[1]: *** [CMakeFiles/qtros.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

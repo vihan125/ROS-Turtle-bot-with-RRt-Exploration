@@ -1,0 +1,1 @@
+/home/vihan/turtle_ws/devel/.private/turtle_gazebo/lib/pkgconfig/turtle_gazebo.pc

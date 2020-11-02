@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target qtros[0m
+[  9%] [32mBuilding CXX object CMakeFiles/qtros.dir/src/main_window.cpp.o[0m
+[ 18%] [32m[1mLinking CXX executable /home/vihan/turtle_ws/devel/.private/qtros/lib/qtros/qtros[0m
+[100%] Built target qtros

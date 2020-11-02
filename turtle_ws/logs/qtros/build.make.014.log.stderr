@@ -1,0 +1,843 @@
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:[m[K In member function ‘[01m[Kvoid qtros::MainWindow::moveLeft()[m[K’:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:16:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[KQStringListModel[m[K’ and ‘[01m[Kconst char [17][m[K’)
+  logging_model << "moving left <<<<"
+[01;32m[K                ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/qbitarray.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:4[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qbytearray.h:597:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QByteArray&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QByteArray &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qbytearray.h:597:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:4:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qbitarray.h:169:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QBitArray&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QBitArray &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qbitarray.h:169:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/qhash.h:46:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qcache.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:7[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qchar.h:400:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QChar&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QChar &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qchar.h:400:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/qobject.h:48:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qiodevice.h:46[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qdatastream.h:46[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qpair.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qhash.h:49[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qcache.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:7[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qstring.h:1080:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QString&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QString &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qstring.h:1080:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/qiodevice.h:46:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qdatastream.h:46[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qpair.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qhash.h:49[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qcache.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:7[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qobject.h:407:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QObject*)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QObject *);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qobject.h:407:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/qdatastream.h:46:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qpair.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qhash.h:49[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qcache.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:7[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qiodevice.h:247:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, QIODevice::OpenMode)
+ Q_CORE_EXPORT QDebug operator<<(QDebug debug, QIODevice::OpenMode modes);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qiodevice.h:247:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/qpair.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qhash.h:49[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qcache.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:7[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdatastream.h:261:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> QDataStream& operator<<(QDataStream&, const QList<T>&)
+ QDataStream& operator<<(QDataStream& s, const QList<T>& l)
+[01;32m[K              ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdatastream.h:261:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDataStream&[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/qpair.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qhash.h:49[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qcache.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:7[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdatastream.h:287:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> QDataStream& operator<<(QDataStream&, const QLinkedList<T>&)
+ QDataStream& operator<<(QDataStream& s, const QLinkedList<T>& l)
+[01;32m[K              ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdatastream.h:287:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDataStream&[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/qpair.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qhash.h:49[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qcache.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:7[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdatastream.h:312:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> QDataStream& operator<<(QDataStream&, const QVector<T>&)
+ QDataStream& operator<<(QDataStream& s, const QVector<T>& v)
+[01;32m[K              ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdatastream.h:312:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDataStream&[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/qpair.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qhash.h:49[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qcache.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:7[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdatastream.h:337:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> QDataStream& operator<<(QDataStream&, const QSet<T>&)
+ QDataStream& operator<<(QDataStream &out, const QSet<T> &set)
+[01;32m[K              ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdatastream.h:337:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDataStream&[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/qpair.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qhash.h:49[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qcache.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:7[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdatastream.h:376:35:[m[K [01;36m[Knote: [m[Kcandidate: template<class Key, class T> QDataStream& operator<<(QDataStream&, const QHash<Key, T>&)
+ Q_OUTOFLINE_TEMPLATE QDataStream &operator<<(QDataStream &out, const QHash<Key, T>& hash)
+[01;32m[K                                   ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdatastream.h:376:35:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDataStream&[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/qpair.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qhash.h:49[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qcache.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:7[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdatastream.h:422:35:[m[K [01;36m[Knote: [m[Kcandidate: template<class Key, class T> QDataStream& operator<<(QDataStream&, const QMap<aKey, aT>&)
+ Q_OUTOFLINE_TEMPLATE QDataStream &operator<<(QDataStream &out, const QMap<Key, T> &map)
+[01;32m[K                                   ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdatastream.h:422:35:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDataStream&[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/qhash.h:49:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/qcache.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:7[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qpair.h:116:21:[m[K [01;36m[Knote: [m[Kcandidate: template<class T1, class T2> QDataStream& operator<<(QDataStream&, const QPair<T1, T2>&)
+ inline QDataStream& operator<<(QDataStream& s, const QPair<T1, T2>& p)
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtCore/qpair.h:116:21:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDataStream&[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:12:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdatetime.h:322:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QDate&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QDate &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdatetime.h:322:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qdatetime.h:324:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QTime&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QTime &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdatetime.h:324:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qdatetime.h:326:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QDateTime&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QDateTime &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdatetime.h:326:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qdatetime.h:331:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QDate&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QDate &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdatetime.h:331:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtCore/qdatetime.h:332:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QTime&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QTime &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdatetime.h:332:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtCore/qdatetime.h:333:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QDateTime&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QDateTime &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdatetime.h:333:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:13:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qeasingcurve.h:113:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QEasingCurve&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug debug, const QEasingCurve &item);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qeasingcurve.h:113:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtCore/qeasingcurve.h:117:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QEasingCurve&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QEasingCurve&);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qeasingcurve.h:117:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/qline.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:17[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qpoint.h:111:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QPoint&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QPoint &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qpoint.h:111:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qpoint.h:207:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QPoint&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QPoint &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qpoint.h:207:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtCore/qpoint.h:263:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QPointF&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QPointF &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qpoint.h:263:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qpoint.h:382:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QPointF&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug d, const QPointF &p);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qpoint.h:382:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:17:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qline.h:201:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QLine&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug d, const QLine &p);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qline.h:201:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtCore/qline.h:205:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QLine&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QLine &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qline.h:205:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qline.h:412:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QLineF&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug d, const QLineF &p);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qline.h:412:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtCore/qline.h:416:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QLineF&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QLineF &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qline.h:416:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/qlocale.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:20[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qvariant.h:606:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QVariant&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QVariant &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qvariant.h:606:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtCore/qvariant.h:532:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QVariant&)
+ Q_CORE_EXPORT QDataStream& operator<< (QDataStream& s, const QVariant& p);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qvariant.h:532:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qvariant.h:534:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, QVariant::Type)
+ Q_CORE_EXPORT QDataStream& operator<< (QDataStream& s, const QVariant::Type p);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qvariant.h:534:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qvariant.h:607:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, QVariant::Type)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QVariant::Type);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qvariant.h:607:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:20:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qlocale.h:837:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QLocale&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QLocale &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qlocale.h:837:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:22:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qmargins.h:140:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QMargins&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QMargins &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qmargins.h:140:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/qrect.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:26[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qsize.h:102:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QSize&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QSize &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qsize.h:102:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qsize.h:198:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QSize&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QSize &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qsize.h:198:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtCore/qsize.h:255:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QSizeF&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QSizeF &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qsize.h:255:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qsize.h:361:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QSizeF&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QSizeF &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qsize.h:361:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:26:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qrect.h:199:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QRect&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QRect &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qrect.h:199:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qrect.h:507:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QRect&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QRect &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qrect.h:507:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtCore/qrect.h:621:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QRectF&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QRectF &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qrect.h:621:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qrect.h:851:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QRectF&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QRectF &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qrect.h:851:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:27:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qregexp.h:159:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QRegExp&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &out, const QRegExp &regExp);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qregexp.h:159:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:37:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qstringlist.h:252:21:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QStringList&)
+ inline QDataStream &operator<<(QDataStream &out, const QStringList &list)
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtCore/qstringlist.h:252:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:52:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qabstractitemmodel.h:102:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QModelIndex&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QModelIndex &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qabstractitemmodel.h:102:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtCore/qabstractitemmodel.h:148:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QPersistentModelIndex&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QPersistentModelIndex &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qabstractitemmodel.h:148:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:82:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/quuid.h:186:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QUuid&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QUuid &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/quuid.h:186:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/qabstractfileengine.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:84[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdir.h:263:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, QDir::Filters)
+ Q_CORE_EXPORT QDebug operator<<(QDebug debug, QDir::Filters filters);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdir.h:263:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtCore/qdir.h:264:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QDir&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug debug, const QDir &dir);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdir.h:264:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/qdebug.h:50:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:87[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qtextstream.h:291:21:[m[K [01;36m[Knote: [m[Kcandidate: QTextStream& operator<<(QTextStream&, QTextStreamFunction)
+ inline QTextStream &operator<<(QTextStream &s, QTextStreamFunction f)
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtCore/qtextstream.h:291:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQTextStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qtextstream.h:294:21:[m[K [01;36m[Knote: [m[Kcandidate: QTextStream& operator<<(QTextStream&, QTextStreamManipulator)
+ inline QTextStream &operator<<(QTextStream &s, QTextStreamManipulator m)
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtCore/qtextstream.h:294:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQTextStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:87:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdebug.h:160:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> QDebug operator<<(QDebug, const QList<T>&)
+ inline QDebug operator<<(QDebug debug, const QList<T> &list)
+[01;32m[K               ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdebug.h:160:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDebug[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:87:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdebug.h:178:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> QDebug operator<<(QDebug, const QVector<T>&)
+ inline QDebug operator<<(QDebug debug, const QVector<T> &vec)
+[01;32m[K               ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdebug.h:178:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDebug[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:87:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdebug.h:190:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class aKey, class aT> QDebug operator<<(QDebug, const QMap<aKey, aT>&)
+ inline QDebug operator<<(QDebug debug, const QMap<aKey, aT> &map)
+[01;32m[K               ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdebug.h:190:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDebug[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:87:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdebug.h:207:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class aKey, class aT> QDebug operator<<(QDebug, const QHash<Key, T>&)
+ inline QDebug operator<<(QDebug debug, const QHash<aKey, aT> &hash)
+[01;32m[K               ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdebug.h:207:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDebug[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:87:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdebug.h:223:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class T1, class T2> QDebug operator<<(QDebug, const QPair<T1, T2>&)
+ inline QDebug operator<<(QDebug debug, const QPair<T1, T2> &pair)
+[01;32m[K               ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdebug.h:223:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDebug[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:87:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdebug.h:231:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> QDebug operator<<(QDebug, const QSet<T>&)
+ inline QDebug operator<<(QDebug debug, const QSet<T> &set)
+[01;32m[K               ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdebug.h:231:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDebug[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:87:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdebug.h:242:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> QDebug operator<<(QDebug, const QContiguousCache<T>&)
+ inline QDebug operator<<(QDebug debug, const QContiguousCache<T> &cache)
+[01;32m[K               ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdebug.h:242:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDebug[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:87:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qdebug.h:260:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class T> QDebug operator<<(QDebug, const QFlags<T>&)
+ inline QDebug operator<<(QDebug debug, const QFlags<T> &flags)
+[01;32m[K               ^[m[K
+[01m[K/usr/include/qt4/QtCore/qdebug.h:260:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDebug[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/QtCore:100:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtCore/qurl.h:295:28:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QUrl&)
+ Q_CORE_EXPORT QDataStream &operator<<(QDataStream &, const QUrl &);
+[01;32m[K                            ^[m[K
+[01m[K/usr/include/qt4/QtCore/qurl.h:295:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtCore/qurl.h:300:22:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QUrl&)
+ Q_CORE_EXPORT QDebug operator<<(QDebug, const QUrl &);
+[01;32m[K                      ^[m[K
+[01m[K/usr/include/qt4/QtCore/qurl.h:300:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qmatrix.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qpainterpath.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:50[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsanchorlayout.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:4[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qpolygon.h:102:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QPolygon&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QPolygon &);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qpolygon.h:102:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qpolygon.h:109:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QPolygon&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &stream, const QPolygon &polygon);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qpolygon.h:109:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtGui/qpolygon.h:168:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QPolygonF&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QPolygonF &);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qpolygon.h:168:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qpolygon.h:175:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QPolygonF&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &stream, const QPolygonF &array);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qpolygon.h:175:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qmatrix.h:46:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qpainterpath.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:50[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsanchorlayout.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:4[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qregion.h:227:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QRegion&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QRegion &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qregion.h:227:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtGui/qregion.h:232:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QRegion&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QRegion &);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qregion.h:232:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qpainterpath.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:50[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsanchorlayout.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:4[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qmatrix.h:188:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QMatrix&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QMatrix &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qmatrix.h:188:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtGui/qmatrix.h:193:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QMatrix&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QMatrix &);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qmatrix.h:193:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:50:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsanchorlayout.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:4[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qpainterpath.h:260:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QPainterPath&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QPainterPath &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qpainterpath.h:260:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtGui/qpainterpath.h:428:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QPainterPath&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QPainterPath &);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qpainterpath.h:428:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qpixmap.h:46:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:51[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsanchorlayout.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:4[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qcolor.h:60:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QColor&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QColor &);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qcolor.h:60:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qcolor.h:274:38:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QColor&)
+     friend Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QColor &);
+[01;32m[K                                      ^[m[K
+[01m[K/usr/include/qt4/QtGui/qcolor.h:274:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qimage.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qpixmap.h:50[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:51[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsanchorlayout.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:4[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qtransform.h:355:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QTransform&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QTransform &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qtransform.h:355:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtGui/qtransform.h:360:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QTransform&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QTransform &);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qtransform.h:360:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qpixmap.h:50:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:51[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsanchorlayout.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:4[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qimage.h:362:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QImage&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QImage &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qimage.h:362:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:51:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsanchorlayout.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:4[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qpixmap.h:323:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QPixmap&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QPixmap &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qpixmap.h:323:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qgraphicsanchorlayout.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:4[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:1152:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, QGraphicsItem*)
+ Q_GUI_EXPORT QDebug operator<<(QDebug debug, QGraphicsItem *item);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:1152:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:1153:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, QGraphicsObject*)
+ Q_GUI_EXPORT QDebug operator<<(QDebug debug, QGraphicsObject *item);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:1153:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:1154:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, QGraphicsItem::GraphicsItemChange)
+ Q_GUI_EXPORT QDebug operator<<(QDebug debug, QGraphicsItem::GraphicsItemChange change);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:1154:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:1155:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, QGraphicsItem::GraphicsItemFlag)
+ Q_GUI_EXPORT QDebug operator<<(QDebug debug, QGraphicsItem::GraphicsItemFlag flag);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:1155:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:1156:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, QGraphicsItem::GraphicsItemFlags)
+ Q_GUI_EXPORT QDebug operator<<(QDebug debug, QGraphicsItem::GraphicsItemFlags flags);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qgraphicsitem.h:1156:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qgraphicslayoutitem.h:46:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicslayout.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsanchorlayout.h:46[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:4[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qsizepolicy.h:225:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QSizePolicy&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QSizePolicy &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qsizepolicy.h:225:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qevent.h:50:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicslayoutitem.h:47[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicslayout.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsanchorlayout.h:46[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:4[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qkeysequence.h:208:38:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QKeySequence&)
+     friend Q_GUI_EXPORT QDataStream &operator<<(QDataStream &in, const QKeySequence &ks);
+[01;32m[K                                      ^[m[K
+[01m[K/usr/include/qt4/QtGui/qkeysequence.h:208:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtGui/qkeysequence.h:222:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QKeySequence&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QKeySequence &);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qkeysequence.h:222:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qgraphicslayoutitem.h:47:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicslayout.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsanchorlayout.h:46[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:4[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qevent.h:732:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QEvent*)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QEvent *);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qevent.h:732:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qgraphicswidget.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsproxywidget.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:11[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qfont.h:370:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QFont&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QFont &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qfont.h:370:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtGui/qfont.h:375:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QFont&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QFont &);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qfont.h:375:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qpalette.h:47:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicswidget.h:48[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsproxywidget.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:11[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qbrush.h:166:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QBrush&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QBrush &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qbrush.h:166:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtGui/qbrush.h:171:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QBrush&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QBrush &);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qbrush.h:171:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qgraphicswidget.h:48:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsproxywidget.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:11[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qpalette.h:262:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QPalette&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &ds, const QPalette &p);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qpalette.h:262:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qgraphicsscene.h:52:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:12[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qpen.h:125:38:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QPen&)
+     friend Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QPen &);
+[01;32m[K                                      ^[m[K
+[01m[K/usr/include/qt4/QtGui/qpen.h:125:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtGui/qpen.h:138:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QPen&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QPen &);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qpen.h:138:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/QVector3D:1:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicstransform.h:46[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:14[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qvector3d.h:272:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QVector3D&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug dbg, const QVector3D &vector);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qvector3d.h:272:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qvector3d.h:276:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QVector3D&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QVector3D &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qvector3d.h:276:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qmatrix4x4.h:46:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QMatrix4x4:1[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicstransform.h:48[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:14[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qvector4d.h:277:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QVector4D&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug dbg, const QVector4D &vector);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qvector4d.h:277:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qvector4d.h:281:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QVector4D&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QVector4D &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qvector4d.h:281:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qmatrix4x4.h:47:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QMatrix4x4:1[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicstransform.h:48[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:14[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qquaternion.h:316:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QQuaternion&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug dbg, const QQuaternion &q);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qquaternion.h:316:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qquaternion.h:320:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QQuaternion&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QQuaternion &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qquaternion.h:320:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qmatrix4x4.h:48:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QMatrix4x4:1[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicstransform.h:48[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:14[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qgenericmatrix.h:352:8:[m[K [01;36m[Knote: [m[Kcandidate: template<int N, int M, class T> QDebug operator<<(QDebug, const QGenericMatrix<N, M, T>&)
+ QDebug operator<<(QDebug dbg, const QGenericMatrix<N, M, T> &m)
+[01;32m[K        ^[m[K
+[01m[K/usr/include/qt4/QtGui/qgenericmatrix.h:352:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDebug[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtGui/qmatrix4x4.h:48:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QMatrix4x4:1[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicstransform.h:48[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:14[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qgenericmatrix.h:371:14:[m[K [01;36m[Knote: [m[Kcandidate: template<int N, int M, class T> QDataStream& operator<<(QDataStream&, const QGenericMatrix<N, M, T>&)
+ QDataStream &operator<<(QDataStream &stream, const QGenericMatrix<N, M, T> &matrix)
+[01;32m[K              ^[m[K
+[01m[K/usr/include/qt4/QtGui/qgenericmatrix.h:371:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:19:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kqtros::logging_model[m[K’ (type ‘[01m[KQStringListModel[m[K’) to type ‘[01m[KQDataStream&[m[K’
+  logging_model << "moving left <<<<"
+[01;32m[K                   ^[m[K
+In file included from [01m[K/usr/include/qt4/QtGui/QMatrix4x4:1:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicstransform.h:48[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:14[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qmatrix4x4.h:981:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QMatrix4x4&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug dbg, const QMatrix4x4 &m);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qmatrix4x4.h:981:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qmatrix4x4.h:985:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QMatrix4x4&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QMatrix4x4 &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qmatrix4x4.h:985:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qwidget.h:57:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qframe.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qabstractscrollarea.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qscrollarea.h:45[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qgraphicsview.h:47[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:15[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qcursor.h:171:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QCursor&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &outS, const QCursor &cursor);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qcursor.h:171:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qaction.h:49:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:17[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qicon.h:150:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QIcon&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QIcon &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qicon.h:150:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qstylepainter.h:46:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:61[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qstyle.h:882:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, QStyle::State)
+ Q_GUI_EXPORT QDebug operator<<(QDebug debug, QStyle::State state);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qstyle.h:882:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qtextcursor.h:47:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qlineedit.h:46[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/qinputdialog.h:47[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:72[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qtextformat.h:117:38:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QTextLength&)
+     friend Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QTextLength &);
+[01;32m[K                                      ^[m[K
+[01m[K/usr/include/qt4/QtGui/qtextformat.h:117:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+[01m[K/usr/include/qt4/QtGui/qtextformat.h:363:38:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QTextFormat&)
+     friend Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QTextFormat &);
+[01;32m[K                                      ^[m[K
+[01m[K/usr/include/qt4/QtGui/qtextformat.h:363:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qabstractitemdelegate.h:46:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:79[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qstyleoption.h:962:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QStyleOption::OptionType&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug debug, const QStyleOption::OptionType &optionType);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qstyleoption.h:962:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qstyleoption.h:963:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QStyleOption&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug debug, const QStyleOption &option);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qstyleoption.h:963:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/qabstractitemview.h:47:0[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:80[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qitemselectionmodel.h:246:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QItemSelectionRange&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug, const QItemSelectionRange &);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qitemselectionmodel.h:246:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/QtGui:92:0[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qlistwidget.h:196:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QListWidgetItem&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &out, const QListWidgetItem &item);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qlistwidget.h:196:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/QtGui:95:0[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qstandarditemmodel.h:447:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QStandardItem&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &out, const QStandardItem &item);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qstandarditemmodel.h:447:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/QtGui:99:0[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qtablewidget.h:215:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QTableWidgetItem&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &out, const QTableWidgetItem &item);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qtablewidget.h:215:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/QtGui:101:0[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qtreewidget.h:254:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QTreeWidgetItem&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &out, const QTreeWidgetItem &item);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qtreewidget.h:254:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/QtGui:189:0[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qsplitter.h:152:27:[m[K [01;36m[Knote: [m[Kcandidate: QTextStream& operator<<(QTextStream&, const QSplitter&)
+ Q_GUI_EXPORT QTextStream& operator<<(QTextStream&, const QSplitter&);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qsplitter.h:152:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQTextStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/QtGui:212:0[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qpicture.h:194:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QPicture&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QPicture &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qpicture.h:194:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/usr/include/qt4/QtGui/QtGui:219:0[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qvector2d.h:248:21:[m[K [01;36m[Knote: [m[Kcandidate: QDebug operator<<(QDebug, const QVector2D&)
+ Q_GUI_EXPORT QDebug operator<<(QDebug dbg, const QVector2D &vector);
+[01;32m[K                     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qvector2d.h:248:21:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDebug[m[K’
+[01m[K/usr/include/qt4/QtGui/qvector2d.h:252:27:[m[K [01;36m[Knote: [m[Kcandidate: QDataStream& operator<<(QDataStream&, const QVector2D&)
+ Q_GUI_EXPORT QDataStream &operator<<(QDataStream &, const QVector2D &);
+[01;32m[K                           ^[m[K
+[01m[K/usr/include/qt4/QtGui/qvector2d.h:252:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[KQDataStream&[m[K’
+In file included from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:52:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/../include/qtros/qnode.hpp:22[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/../include/qtros/main_window.hpp:17[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:15[m[K:
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:199:15:[m[K [01;36m[Knote: [m[Kcandidate: std::ostream& operator<<(std::ostream&, const XmlRpc::XmlRpcValue&)
+ std::ostream& operator<<(std::ostream& os, const XmlRpc::XmlRpcValue& v);
+[01;32m[K               ^[m[K
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:199:15:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel[m[K’ to ‘[01m[Kstd::ostream& {aka std::basic_ostream<char>&}[m[K’
+make[2]: *** [CMakeFiles/qtros.dir/src/main_window.cpp.o] Error 1
+make[1]: *** [CMakeFiles/qtros.dir/all] Error 2
+make: *** [all] Error 2

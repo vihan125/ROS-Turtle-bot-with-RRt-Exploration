@@ -1,0 +1,1 @@
+/home/vihan/turtle_ws/devel/.private/rrt_exploration/share/roseus/ros/rrt_exploration/msg/PointArray.l

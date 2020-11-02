@@ -1,0 +1,17 @@
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:[m[K In member function ‘[01m[Kvoid qtros::MainWindow::moveLeft()[m[K’:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:3:[m[K [01;31m[Kerror: [m[K‘[01m[KmsgBox[m[K’ was not declared in this scope
+   msgBox.setText("Left test ...");
+[01;32m[K   ^[m[K
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:[m[K In member function ‘[01m[Kvoid qtros::MainWindow::moveRight()[m[K’:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:97:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQStringListModel::setStringList(const char [30])[m[K’
+  logging_model.setStringList("Moving right by 1 step >>>>>>"); 
+[01;32m[K                                                             ^[m[K
+In file included from [01m[K/usr/include/qt4/QtGui/QtGui:96:0[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qstringlistmodel.h:76:10:[m[K [01;36m[Knote: [m[Kcandidate: void QStringListModel::setStringList(const QStringList&)
+     void setStringList(const QStringList &strings);
+[01;32m[K          ^[m[K
+[01m[K/usr/include/qt4/QtGui/qstringlistmodel.h:76:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [30][m[K’ to ‘[01m[Kconst QStringList&[m[K’
+make[2]: *** [CMakeFiles/qtros.dir/src/main_window.cpp.o] Error 1
+make[1]: *** [CMakeFiles/qtros.dir/all] Error 2
+make: *** [all] Error 2

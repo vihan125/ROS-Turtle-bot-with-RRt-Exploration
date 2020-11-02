@@ -1,0 +1,37 @@
+[35m[1mScanning dependencies of target local_rrt_detector[0m
+[35m[1mScanning dependencies of target global_rrt_detector[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  6%] [32mBuilding CXX object CMakeFiles/local_rrt_detector.dir/src/local_rrt_detector.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/global_rrt_detector.dir/src/global_rrt_detector.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/local_rrt_detector.dir/src/functions.cpp.o[0m
+[ 20%] Built target geometry_msgs_generate_messages_lisp
+[ 20%] Built target geometry_msgs_generate_messages_eus
+[ 20%] Built target std_msgs_generate_messages_py
+[ 20%] Built target std_msgs_generate_messages_lisp
+[ 20%] Built target _rrt_generate_messages_check_deps_PointArray
+[ 26%] [32mBuilding CXX object CMakeFiles/global_rrt_detector.dir/src/functions.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/global_rrt_detector.dir/src/mtrand.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/local_rrt_detector.dir/src/mtrand.cpp.o[0m
+[ 40%] Built target std_msgs_generate_messages_eus
+[ 46%] [34m[1mGenerating Javascript code from rrt/PointArray.msg[0m
+[ 53%] [34m[1mGenerating C++ code from rrt/PointArray.msg[0m
+[ 53%] Built target rrt_generate_messages_nodejs
+[ 60%] [34m[1mGenerating Python from MSG rrt/PointArray[0m
+[ 66%] [34m[1mGenerating Lisp code from rrt/PointArray.msg[0m
+[ 73%] [34m[1mGenerating EusLisp code from rrt/PointArray.msg[0m
+[ 73%] Built target rrt_generate_messages_lisp
+[ 80%] [34m[1mGenerating EusLisp manifest code for rrt[0m
+[ 80%] Built target rrt_generate_messages_cpp
+[ 86%] [34m[1mGenerating Python msg __init__.py for rrt[0m
+[ 86%] Built target rrt_generate_messages_py
+[ 86%] Built target rrt_generate_messages_eus
+[35m[1mScanning dependencies of target rrt_generate_messages[0m
+[ 86%] Built target rrt_generate_messages
+[100%] [32m[1mLinking CXX executable /home/vihan/turtle_ws/devel/.private/rrt/lib/rrt/global_rrt_detector[0m
+[100%] [32m[1mLinking CXX executable /home/vihan/turtle_ws/devel/.private/rrt/lib/rrt/local_rrt_detector[0m
+[100%] Built target local_rrt_detector
+[100%] Built target global_rrt_detector

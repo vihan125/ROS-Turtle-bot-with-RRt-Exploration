@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(find turtle_description)/urdf/turtle.xacro'"/>
+
+  <!-- send fake joint values >
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="false"/>
+  </node>
+
+  <!Combine joint values >
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher">
+    <param name="use_tf_static" value="false"/>
+  </node-->
+
+   <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+   <param name="publish_frequency" type="double" value="30.0" />
+   <param name="use_tf_static" type="bool" value="false" />
+   <param name="tf_prefix" type="string" value=""/>
+   </node>
+  <!-- Show in Rviz   -->
+  <node name="rviz" pkg="rviz" type="rviz"/>
+  <!--node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtle_description)/rviz/rrt.rviz"/-->
+
+</launch>

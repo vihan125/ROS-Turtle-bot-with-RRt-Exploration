@@ -1,0 +1,12 @@
+Symlinking /home/vihan/turtle_ws/devel/./local_setup.sh
+Symlinking /home/vihan/turtle_ws/devel/./_setup_util.py
+Symlinking /home/vihan/turtle_ws/devel/./local_setup.zsh
+Symlinking /home/vihan/turtle_ws/devel/./local_setup.bash
+Symlinking /home/vihan/turtle_ws/devel/./cmake.lock
+Symlinking /home/vihan/turtle_ws/devel/./setup.bash
+Symlinking /home/vihan/turtle_ws/devel/./setup.sh
+Symlinking /home/vihan/turtle_ws/devel/./setup.zsh
+Symlinking /home/vihan/turtle_ws/devel/./env.sh
+Symlinking /home/vihan/turtle_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/vihan/turtle_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/vihan/turtle_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake

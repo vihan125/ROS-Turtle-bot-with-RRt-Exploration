@@ -1,0 +1,24 @@
+[01m[K/home/vihan/turtle_ws/src/rrt/src/functions.cpp:1:23:[m[K [01;31m[Kfatal error: [m[Kfunctions.h: No such file or directory
+[01m[K/home/vihan/turtle_ws/src/rrt/src/functions.cpp:1:23:[m[K [01;31m[Kfatal error: [m[Kfunctions.h: No such file or directory
+[01m[K/home/vihan/turtle_ws/src/rrt/src/mtrand.cpp:3:20:[m[K [01;31m[Kfatal error: [m[Kmtrand.h: No such file or directory
+[01m[K/home/vihan/turtle_ws/src/rrt/src/mtrand.cpp:3:20:[m[K [01;31m[Kfatal error: [m[Kmtrand.h: No such file or directory
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+make[2]: *** [CMakeFiles/local_rrt_detector.dir/src/mtrand.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/local_rrt_detector.dir/src/functions.cpp.o] Error 1
+make[2]: *** [CMakeFiles/global_rrt_detector.dir/src/functions.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/global_rrt_detector.dir/src/mtrand.cpp.o] Error 1
+[01m[K/home/vihan/turtle_ws/src/rrt/src/local_rrt_detector.cpp:8:23:[m[K [01;31m[Kfatal error: [m[Kfunctions.h: No such file or directory
+[01m[K/home/vihan/turtle_ws/src/rrt/src/global_rrt_detector.cpp:8:23:[m[K [01;31m[Kfatal error: [m[Kfunctions.h: No such file or directory
+compilation terminated.
+compilation terminated.
+make[2]: *** [CMakeFiles/global_rrt_detector.dir/src/global_rrt_detector.cpp.o] Error 1
+make[2]: *** [CMakeFiles/local_rrt_detector.dir/src/local_rrt_detector.cpp.o] Error 1
+make[1]: *** [CMakeFiles/local_rrt_detector.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/global_rrt_detector.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,4 @@
+Symlinking /home/vihan/turtle_ws/devel/lib/qtros/qtros
+Symlinking /home/vihan/turtle_ws/devel/lib/pkgconfig/qtros.pc
+Symlinking /home/vihan/turtle_ws/devel/share/qtros/cmake/qtrosConfig-version.cmake
+Symlinking /home/vihan/turtle_ws/devel/share/qtros/cmake/qtrosConfig.cmake

@@ -1,0 +1,12 @@
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:[m[K In member function ‘[01m[Kvoid qtros::MainWindow::moveLeft()[m[K’:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass QStringListModel[m[K’ has no member named ‘[01m[KsetText[m[K’
+  logging_model.setText("Moving left by 1 step <<<<<<<<");
+[01;32m[K                ^[m[K
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:[m[K In member function ‘[01m[Kvoid qtros::MainWindow::moveRight()[m[K’:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:96:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass QStringListModel[m[K’ has no member named ‘[01m[KsetText[m[K’
+  logging_model.setText("Moving right by 1 step >>>>>>>>");
+[01;32m[K                ^[m[K
+make[2]: *** [CMakeFiles/qtros.dir/src/main_window.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/qtros.dir/all] Error 2
+make: *** [all] Error 2

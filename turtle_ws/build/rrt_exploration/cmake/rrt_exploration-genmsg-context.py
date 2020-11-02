@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/home/vihan/turtle_ws/src/rrt_frontier/msg/PointArray.msg"
+services_str = ""
+pkg_name = "rrt_exploration"
+dependencies_str = "std_msgs;geometry_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "rrt_exploration;/home/vihan/turtle_ws/src/rrt_frontier/msg;std_msgs;/opt/ros/kinetic/share/std_msgs/cmake/../msg;geometry_msgs;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/usr/bin/python2"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

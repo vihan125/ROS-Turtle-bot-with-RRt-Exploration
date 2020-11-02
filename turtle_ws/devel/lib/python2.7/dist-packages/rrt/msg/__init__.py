@@ -1,0 +1,1 @@
+/home/vihan/turtle_ws/devel/.private/rrt/lib/python2.7/dist-packages/rrt/msg/__init__.py

@@ -1,0 +1,1 @@
+/home/vihan/turtle_ws/devel/.private/turtle_description/lib/pkgconfig/turtle_description.pc

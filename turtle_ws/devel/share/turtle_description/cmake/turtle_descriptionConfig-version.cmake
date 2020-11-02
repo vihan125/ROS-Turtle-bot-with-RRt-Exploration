@@ -1,0 +1,1 @@
+/home/vihan/turtle_ws/devel/.private/turtle_description/share/turtle_description/cmake/turtle_descriptionConfig-version.cmake

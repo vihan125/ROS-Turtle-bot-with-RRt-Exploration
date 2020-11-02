@@ -1,0 +1,8 @@
+prefix=/home/vihan/turtle_ws/install
+
+Name: turtle_description
+Description: Description of turtle_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/vihan/turtle_ws/devel/.private/turtle_navigation
+
+Name: turtle_navigation
+Description: Description of turtle_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

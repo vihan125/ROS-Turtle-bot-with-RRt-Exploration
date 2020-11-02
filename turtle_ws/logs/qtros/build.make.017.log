@@ -1,0 +1,38 @@
+[35m[1mScanning dependencies of target qtros[0m
+[  9%] [32mBuilding CXX object CMakeFiles/qtros.dir/src/main_window.cpp.o[0m
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:[m[K In member function ‘[01m[Kvoid qtros::MainWindow::moveLeft()[m[K’:
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:91:20:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[KQStringListModel[m[K’ and ‘[01m[KQStringListModel*[m[K’)
+      logging_model = qnode.loggingModel();
+[01;32m[K                    ^[m[K
+In file included from [01m[K/usr/include/qt4/QtCore/qalgorithms.h:45:0[m[K,
+                 from [01m[K/usr/include/qt4/QtCore/QtCore:3[m[K,
+                 from [01m[K/usr/include/qt4/QtGui/QtGui:3[m[K,
+                 from [01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:12[m[K:
+[01m[K/usr/include/qt4/QtGui/qstringlistmodel.h:81:5:[m[K [01;36m[Knote: [m[Kcandidate: QStringListModel& QStringListModel::operator=(const QStringListModel&)
+     Q_DISABLE_COPY(QStringListModel)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/qt4/QtGui/qstringlistmodel.h:81:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KQStringListModel*[m[K’ to ‘[01m[Kconst QStringListModel&[m[K’
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:92:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KQStringListModel[m[K’
+         logging_model->insertRows(logging_model->rowCount(), 1);
+[01;32m[K                      ^[m[K
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:92:48:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KQStringListModel[m[K’
+         logging_model->insertRows(logging_model->rowCount(), 1);
+[01;32m[K                                                ^[m[K
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:96:22:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KQStringListModel[m[K’
+         logging_model->setData(logging_model->index(logging_model->rowCount()-1), new_row);
+[01;32m[K                      ^[m[K
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:96:45:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KQStringListModel[m[K’
+         logging_model->setData(logging_model->index(logging_model->rowCount()-1), new_row);
+[01;32m[K                                             ^[m[K
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:96:66:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KQStringListModel[m[K’
+         logging_model->setData(logging_model->index(logging_model->rowCount()-1), new_row);
+[01;32m[K                                                                  ^[m[K
+[01m[K/home/vihan/turtle_ws/src/qtros/src/main_window.cpp:98:35:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KQStringListModel[m[K’
+         std::cout << logging_model->rowCount() << std::endl;
+[01;32m[K                                   ^[m[K
+CMakeFiles/qtros.dir/build.make:106: recipe for target 'CMakeFiles/qtros.dir/src/main_window.cpp.o' failed
+make[2]: *** [CMakeFiles/qtros.dir/src/main_window.cpp.o] Error 1
+CMakeFiles/Makefile2:707: recipe for target 'CMakeFiles/qtros.dir/all' failed
+make[1]: *** [CMakeFiles/qtros.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

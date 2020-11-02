@@ -1,0 +1,6 @@
+devel_space: /home/vihan/turtle_ws/devel
+install: false
+install_space: /home/vihan/turtle_ws/install
+profile: default
+source_space: /home/vihan/turtle_ws/src
+workspace: /home/vihan/turtle_ws
